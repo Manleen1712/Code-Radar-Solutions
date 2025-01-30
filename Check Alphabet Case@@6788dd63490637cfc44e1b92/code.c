@@ -8,6 +8,6 @@ int main()
         printf("Lowercase");
     }
     else{
-        printf("Uppercase")
+        printf("Uppercase");
     }
 }
