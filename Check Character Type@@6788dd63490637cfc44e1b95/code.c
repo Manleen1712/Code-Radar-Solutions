@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include <ctype.h>
 int main()
 {
     char a;
     scanf("%c",&a);
-    if(isupper(a))
+    if((a== 'a') || (a=='e') || (a=='i') || (a=='o') || (a=='u') || (a=='A') || (a=='E') || (a=='I') || (a=='O') || (a=='U'))
     {
-        printf("Uppercase");
+        printf("Vowel");
     }
-    else if(islower(a))
+    else if((a>=0) && (a<=9))
     {
-        printf("Lowercase");
+        printf("Digit");
     }
-    else
+    else if ((a>='b') &&(a<='z') )
     {
-        printf("Not an alphabet");
+        printf("Consonent");
     }
-    return 0;
+    else{
+        printf("Special Character");
+    }
 }
