@@ -11,7 +11,7 @@ int main()
     {
         printf("Digit");
     }
-    else if ((a>='b') &&(a<='z') )
+    else if (((a>='b') &&(a<='z')) || ((a>='B') && (a<=z)))
     {
         printf("Consonant");
     }
