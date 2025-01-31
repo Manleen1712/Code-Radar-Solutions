@@ -11,12 +11,12 @@ int main()
     {
         printf("Divisible by 5");
     }
-    else if((a%3==0)||(a%5==0))
+    else if((a%3==0)&&(a%5==0))
     {
-        printf("Divisible by both");
+        printf("Divisible by Both");
     }
     else{
-        printf("Divisible by neither");
+        printf("Not Divisible");
     }
     return 0;
 }
