@@ -1,10 +1,10 @@
-// Your code here...
 // c program to print left half pyramid pattern of star
 #include <stdio.h>
 
 int main()
 {
     int rows;
+    printf("enter the no. of rows");
     scanf("%d",&rows);
     
     for (int i = 0; i < rows; i++) {
@@ -12,7 +12,7 @@ int main()
             printf("");
         }
         for (int k = 0; k <= i; k++) {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
